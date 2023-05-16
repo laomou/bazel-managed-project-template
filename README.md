@@ -1,0 +1,1 @@
+# bazel-managed-project-template
