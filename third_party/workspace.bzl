@@ -1,8 +1,16 @@
 load("//third_party/zlib:workspace.bzl", zlib = "repo")
 load("//third_party/opencv:workspace.bzl", opencv = "repo")
-load("//third_party/google_test:workspace.bzl", google_test = "repo")
+load("//third_party/gflags_gflags:workspace.bzl", gflags_gflags = "repo")
+load("//third_party/google_glog:workspace.bzl", google_glog = "repo")
+load("//third_party/google_googletest:workspace.bzl", google_googletest = "repo")
+load("//third_party/google_protobuf:workspace.bzl", google_protobuf = "repo")
+load("//third_party/pybind11:workspace.bzl", pybind11 = "repo")
 
 def workspace():
     opencv()
     zlib()
-    google_test()
+    gflags_gflags()
+    google_glog()
+    google_googletest()
+    google_protobuf()
+    pybind11()
