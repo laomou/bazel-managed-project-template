@@ -6,6 +6,6 @@ cc_binary(
     name = "gtest_demo",
     srcs = ["test.cc"],
     deps = [
-        "@google_test//:gtest_main",
+        "@google_googletest//:gtest_main",
     ],
 )
