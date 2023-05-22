@@ -6,6 +6,7 @@ load("//third_party/google_glog:workspace.bzl", google_glog = "repo")
 load("//third_party/google_googletest:workspace.bzl", google_googletest = "repo")
 load("//third_party/google_protobuf:workspace.bzl", google_protobuf = "repo")
 load("//third_party/pybind11:workspace.bzl", pybind11 = "repo")
+load("//third_party/opencl_headers:workspace.bzl", opencl_headers = "repo")
 
 def workspace():
     opencv()
@@ -16,3 +17,4 @@ def workspace():
     google_googletest()
     google_protobuf()
     pybind11()
+    opencl_headers()
