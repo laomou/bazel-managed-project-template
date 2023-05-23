@@ -7,6 +7,8 @@ load("//third_party/google_googletest:workspace.bzl", google_googletest = "repo"
 load("//third_party/google_protobuf:workspace.bzl", google_protobuf = "repo")
 load("//third_party/pybind11:workspace.bzl", pybind11 = "repo")
 load("//third_party/opencl_headers:workspace.bzl", opencl_headers = "repo")
+load("//third_party/jbeder_yaml:workspace.bzl", jbeder_yaml = "repo")
+load("//third_party/nlohmann_json:workspace.bzl", nlohmann_json = "repo")
 
 def workspace():
     opencv()
@@ -18,3 +20,6 @@ def workspace():
     google_protobuf()
     pybind11()
     opencl_headers()
+    jbeder_yaml()
+    nlohmann_json()
+
