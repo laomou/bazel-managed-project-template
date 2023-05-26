@@ -31,9 +31,3 @@ bazel_skylib_workspace()
 
 load("@//:third_party/workspace.bzl", third_party_workspace = "workspace")
 third_party_workspace()
-
-android_ndk_repository(
-    name = "androidndk",
-    path = "your ndk patch",
-    api_level=21
-)
