@@ -34,6 +34,6 @@ third_party_workspace()
 
 android_ndk_repository(
     name = "androidndk",
-    path = "your ndk patch",
+    path = "your ndk path",
     api_level=21
 )
